@@ -28,17 +28,25 @@ The function param ```interp```(interpolation) for **resizing images** is ```"bi
 ## 4. running
 ### 4.1 train
 When you run ```FCN_train.py```, you will see:
+
 ![](https://upload-images.jianshu.io/upload_images/7547741-5bcc53e384b8828e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 - It will cost about 7~8 hours on *Nvidia GeForce GTX 1080 11GB*.
 - The training loss is hard to be improved when it's around 0.8 ~ 1.5. This may be the limitation of FCN.
 
 ### 4.2 test
 When you run ```FCN_test.py```, you will see:
+
 ![](https://upload-images.jianshu.io/upload_images/7547741-0d613e5e0192909a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-and after processing all validation images, It will print the metrics.
+
+After processing all validation images, It will print the metrics.
+
 ![](https://upload-images.jianshu.io/upload_images/7547741-8396505c4239ec91.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 You can uncomment lines 130~143 to **see some well processed results**.
+
 ![](https://upload-images.jianshu.io/upload_images/7547741-8fa831a7a192bb51.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 ### 4.3 infer
 Just put the .jpg images in **./infer**, run **./FCN_infer.py** and the predicted annotations will be put in **./output**.
 
