@@ -63,3 +63,10 @@ Here are some examples:
 
 ![](https://upload-images.jianshu.io/upload_images/7547741-ae150695ac950d02.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+## 6. other links
+- A simple Chinese readme is here: [简书](https://www.jianshu.com/p/3e7d425a2f47) 
+- Another blog written previously in Chinese is here: [task7 FCN分析](https://www.jianshu.com/p/2d0ab45ae642)，the contents about code may not be useful, because I make a lot of change on the code since then. 
+
+> 以上两个链接是我写的两个关于FCN的学习报告。
+第二个学习报告写的比较早，关于代码的部分可以选择性地看，因为很多代码已经大改了。
+第一个报告是根据这份代码写成的，更具参考性
