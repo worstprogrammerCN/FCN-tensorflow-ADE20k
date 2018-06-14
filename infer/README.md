@@ -1,0 +1,1 @@
+> This is where you put the .jpg images to infer.
